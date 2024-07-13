@@ -1,7 +1,8 @@
 import axios from "axios";
 import { createContext, ReactNode, useEffect, useState } from "react";
 import { ICutomers, ITransactions } from "../interface";
-import useQuery from "../utils/CustomeHook";
+
+import useQuery from './../utils/CustomeHook';
 type IDataProvider = {
     children: ReactNode;
 }
@@ -44,11 +45,9 @@ export const DataProvider: React.FC<IDataProvider> = ({ children }: IDataProvide
             .then((res) => {
                 setTransaction(res.data.transactions);
                 setCustomers(res.data.customers);
+                setSortByDate('asc')
             })
             .catch(err => console.log("Error fetching transactions:", err));
-
-
-        setSortByDate('asc')
     }, []);
 
     const getCustomerById = (id: number) => customers.find(customer => customer.id == id);
