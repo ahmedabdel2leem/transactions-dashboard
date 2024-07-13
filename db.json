@@ -1,0 +1,302 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "profileImg": "./src/assets/user1.jpg",
+            "name": "Ahmed Ali",
+            "balance": 500000
+        },
+        {
+            "id": 2,
+            "profileImg": "./src/assets/user2.jpg",
+            "name": "Aya Elsayed",
+            "balance": 15000
+        },
+        {
+            "id": 3,
+            "profileImg": "./src/assets/user6.jpg",
+            "name": "Mina Adel",
+            "balance": 1000
+        },
+        {
+            "id": 4,
+            "profileImg": "./src/assets/user5.jpg",
+            "name": "Sarah Reda",
+            "balance": 1430
+        },
+        {
+            "id": 5,
+            "profileImg": "./src/assets/user4.jpg",
+            "name": "Mohamed Sayed",
+            "balance": 2100
+        }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "customer_id": 1,
+            "date": "2022-01-01",
+            "amount": 1200,
+            "to": "NASA"
+        },
+        {
+            "id": 2,
+            "customer_id": 2,
+            "date": "2022-01-01",
+            "amount": 550,
+            "to": "YouTupe"
+        },
+        {
+            "id": 3,
+            "customer_id": 3,
+            "date": "2022-01-01",
+            "amount": 500,
+            "to": "Gmail"
+        },
+        {
+            "id": 4,
+            "customer_id": 4,
+            "date": "2022-01-06",
+            "amount": 900,
+            "to": "Adobe"
+        },
+        {
+            "id": 6,
+            "customer_id": 2,
+            "date": "2022-01-01",
+            "amount": 850,
+            "to": "Facebook"
+        },
+        {
+            "id": 5,
+            "customer_id": 5,
+            "date": "2022-01-08",
+            "amount": 2500,
+            "to": "Vodafone"
+        },
+        {
+            "id": 24,
+            "customer_id": 4,
+            "date": "2022-01-01",
+            "amount": 750,
+            "to": "Google"
+        },
+        {
+            "id": 12,
+            "customer_id": 1,
+            "date": "2022-01-01",
+            "amount": 1400,
+            "to": "Google"
+        },
+        {
+            "id": 8,
+            "customer_id": 1,
+            "date": "2022-01-01",
+            "amount": 1300,
+            "to": "Google"
+        },
+        {
+            "id": 9,
+            "customer_id": 1,
+            "date": "2022-01-02",
+            "amount": 1100,
+            "to": "Netflix"
+        },
+        {
+            "id": 30,
+            "customer_id": 5,
+            "date": "2022-01-02",
+            "amount": 875,
+            "to": "Netflix"
+        },
+        {
+            "id": 31,
+            "customer_id": 5,
+            "date": "2022-01-08",
+            "amount": 2500,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 10,
+            "customer_id": 1,
+            "date": "2022-01-02",
+            "amount": 2000,
+            "to": "Netflix"
+        },
+        {
+            "id": 11,
+            "customer_id": 1,
+            "date": "2022-01-02",
+            "amount": 1000,
+            "to": "Netflix"
+        },
+        {
+            "id": 7,
+            "customer_id": 1,
+            "date": "2022-01-02",
+            "amount": 1200,
+            "to": "Netflix"
+        },
+        {
+            "id": 38,
+            "customer_id": 2,
+            "date": "2022-01-01",
+            "amount": 850,
+            "to": "Facebook"
+        },
+        {
+            "id": 13,
+            "customer_id": 2,
+            "date": "2022-01-02",
+            "amount": 550,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 14,
+            "customer_id": 2,
+            "date": "2022-01-01",
+            "amount": 900,
+            "to": "Facebook"
+        },
+        {
+            "id": 15,
+            "customer_id": 2,
+            "date": "2022-01-01",
+            "amount": 850,
+            "to": "Facebook"
+        },
+        {
+            "id": 16,
+            "customer_id": 2,
+            "date": "2022-01-02",
+            "amount": 1000,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 17,
+            "customer_id": 2,
+            "date": "2022-01-02",
+            "amount": 900,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 18,
+            "customer_id": 3,
+            "date": "2022-01-05",
+            "amount": 875,
+            "to": "Elsweedy"
+        },
+        {
+            "id": 19,
+            "customer_id": 3,
+            "date": "2022-01-02",
+            "amount": 500,
+            "to": "Facebook"
+        },
+        {
+            "id": 20,
+            "customer_id": 3,
+            "date": "2022-01-01",
+            "amount": 750,
+            "to": "Elsweedy"
+        },
+        {
+            "id": 21,
+            "customer_id": 3,
+            "date": "2022-01-05",
+            "amount": 900,
+            "to": "Elsweedy"
+        },
+        {
+            "id": 22,
+            "customer_id": 3,
+            "date": "2022-01-02",
+            "amount": 400,
+            "to": "Facebook"
+        },
+        {
+            "id": 23,
+            "customer_id": 3,
+            "date": "2022-01-02",
+            "amount": 600,
+            "to": "Facebook"
+        },
+        {
+            "id": 25,
+            "customer_id": 4,
+            "date": "2022-01-01",
+            "amount": 875,
+            "to": "Google"
+        },
+        {
+            "id": 26,
+            "customer_id": 4,
+            "date": "2022-01-06",
+            "amount": 500,
+            "to": "Elsweedy"
+        },
+        {
+            "id": 27,
+            "customer_id": 4,
+            "date": "2022-01-01",
+            "amount": 750,
+            "to": "Google"
+        },
+        {
+            "id": 28,
+            "customer_id": 4,
+            "date": "2022-01-01",
+            "amount": 400,
+            "to": "Google"
+        },
+        {
+            "id": 29,
+            "customer_id": 4,
+            "date": "2022-01-06",
+            "amount": 800,
+            "to": "Elsweedy"
+        },
+        {
+            "id": 39,
+            "customer_id": 5,
+            "date": "2022-01-02",
+            "amount": 875,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 34,
+            "customer_id": 5,
+            "date": "2022-01-08",
+            "amount": 2500,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 32,
+            "customer_id": 5,
+            "date": "2022-01-02",
+            "amount": 875,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 33,
+            "customer_id": 5,
+            "date": "2022-01-08",
+            "amount": 1000,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 36,
+            "customer_id": 5,
+            "date": "2022-01-02",
+            "amount": 875,
+            "to": "Telepreformace"
+        },
+        {
+            "id": 35,
+            "customer_id": 5,
+            "date": "2022-01-02",
+            "amount": 700,
+            "to": "Telepreformace"
+        }
+    ]
+}
