@@ -2,31 +2,31 @@
     "customers": [
         {
             "id": 1,
-            "profileImg": "./src/assets/user1.jpg",
+            "profileImg": "/assets/user1.jpg",
             "name": "Ahmed Ali",
             "balance": 500000
         },
         {
             "id": 2,
-            "profileImg": "./src/assets/user2.jpg",
+            "profileImg": "/assets/user2.jpg",
             "name": "Aya Elsayed",
             "balance": 15000
         },
         {
             "id": 3,
-            "profileImg": "./src/assets/user6.jpg",
+            "profileImg": "/assets/user6.jpg",
             "name": "Mina Adel",
             "balance": 1000
         },
         {
             "id": 4,
-            "profileImg": "./src/assets/user5.jpg",
+            "profileImg": "/assets/user5.jpg",
             "name": "Sarah Reda",
             "balance": 1430
         },
         {
             "id": 5,
-            "profileImg": "./src/assets/user4.jpg",
+            "profileImg": "/assets/user4.jpg",
             "name": "Mohamed Sayed",
             "balance": 2100
         }
