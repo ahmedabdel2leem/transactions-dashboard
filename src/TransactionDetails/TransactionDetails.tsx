@@ -1,7 +1,7 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext } from "react";
 import HandelDataContext from "../Context/HandelDataContext";
-import { ICutomers, ITransactions } from "../interface";
-import useQuery from "./CustomeHook";
+import { ITransactions } from "../interface";
+
 
 
 function TransactionDetails() {

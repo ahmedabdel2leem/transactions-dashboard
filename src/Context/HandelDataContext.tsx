@@ -1,7 +1,7 @@
 import axios from "axios";
 import { createContext, ReactNode, useEffect, useState } from "react";
 import { ICutomers, ITransactions } from "../interface";
-import useQuery from "../TransactionDetails/CustomeHook";
+import useQuery from "../utils/CustomeHook";
 type IDataProvider = {
     children: ReactNode;
 }
